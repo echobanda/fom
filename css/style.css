@@ -1,0 +1,23 @@
+body {
+  background-color: white;
+  font-family: "Helvetica", "Verdana", sans-serif;
+}
+
+.row {
+  margin-top: 15px;
+}
+
+.col-sm-offset-2{
+margin-left: 0;
+margin-top: 35px;
+width: 60%;
+}
+
+.container-fluid {
+  border: none;
+  background-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: white;
+}
