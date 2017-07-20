@@ -24,9 +24,34 @@ width: 60%;
 
 .bg-slider {
   background-color: #fff;
-  border-top: 10px solid brown;
-  border-bottom: 10px solid brown;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
   padding: 25px 0;
   color: #fff;
   margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.flexslider {
+  /*width: 600px;
+  height: 300px;*/
+
+}
+
+.bg-grey{
+  background-color: #dfdfdf;
+  margin: 5px 0 15px 0;
+  padding: 15px 0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.bg-sidebar{
+  background-color: #dfdfdf;
+  margin: 5px 0 15px 0;
+  padding: 0 15px 15px 15px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
 }
