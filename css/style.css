@@ -24,18 +24,12 @@ width: 60%;
 
 .bg-slider {
   background-color: #fff;
-  border-top: 10px solid black;
-  border-bottom: 10px solid black;
+  /*border-top: 10px solid black;
+  border-bottom: 10px solid black;*/
   padding: 25px 0;
   color: #fff;
   margin-bottom: 30px;
   margin-top: 30px;
-}
-
-.flexslider {
-  /*width: 600px;
-  height: 300px;*/
-
 }
 
 .bg-grey{
@@ -54,4 +48,62 @@ width: 60%;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
+}
+
+.container-black {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*footer:hover {
+    background: rgba(0, 0, 0, 0.9);
+}*/
+
+.return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+.return-to-top:hover i {
+    color: #fff;
+    top: 5px;
 }
