@@ -1,7 +1,7 @@
 /*html styles*/
 body {
   background-color: white;
-  font-family: 'Actor', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .row {
@@ -72,13 +72,53 @@ border: none;
   color: white;
 }
 
-footer {
+.footer {
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
-  height: 100px;
-  line-height: 60px;
+  height: 130px;
   text-align: center;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 10px;
 }
+
+.footer li {
+  list-style: none;
+  font-size: 1.2em;
+}
+
+.footer i {
+margin: 10px 0 10px 0;
+}
+
+.footer a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.legal a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.legal {
+  background-color: white;
+  color: black;
+  height: 100px;
+  text-align: center;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+footer {
+  background-color: white;
+  height: 100px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
 
 .title {
   margin-top: 0;
@@ -89,21 +129,21 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: rgb(0, 0, 0);
+    /*background: rgb(0, 0, 0);*/
     background: rgba(0, 0, 0, 0.7);
     width: 50px;
     height: 50px;
     display: block;
     text-decoration: none;
-    -webkit-border-radius: 35px;
+    /*-webkit-border-radius: 35px;
     -moz-border-radius: 35px;
-    border-radius: 35px;
+    border-radius: 35px;*/
     display: none;
-    -webkit-transition: all 0.3s linear;
+    /*-webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease;*/
 }
 .return-to-top i {
     color: #fff;
@@ -112,16 +152,16 @@ footer {
     left: 16px;
     top: 13px;
     font-size: 19px;
-    -webkit-transition: all 0.3s ease;
+    /*-webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease;*/
 }
-.return-to-top:hover {
+/*.return-to-top:hover {
     background: rgba(0, 0, 0, 0.9);
 }
 .return-to-top:hover i {
     color: #fff;
     top: 5px;
-}
+}*/
