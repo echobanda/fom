@@ -16,6 +16,7 @@
   <link href="css/flexslider.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Actor" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rambla" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,34 +28,32 @@
 
 <body>
   <!-- header -->
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-2"><img src="./img/logo.png" alt="logo" class="img-responsive"></div>
-      <div class="col-sm-6 col-sm-offset-2">
-        <nav class="navbar navbar-default">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Przełącznik</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="index.html">HOME</a></li>
-                  <li><a href="podstrona.html">PROJEKTY UE</a></li>
-                  <li><a href="szkolenia.html">SZKOLENIA</a></li>
-                  <li><a href="doradztwo.html">DORADZTWO</a></li>
-                  <li><a href="onas.html">O NAS</a></li>
-                  <li><a href="kontakt.html">KONTAKT</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+        <a href="#" class="navbar-brand">fundacja optimo modo</a>
+      </div>
+      <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">PROJEKTY UE</a></li>
+          <li><a href="#">SZKOLENIA</a></li>
+          <li><a href="#">DORADZTWO</a></li>
+          <li><a href="#">O NAS</a></li>
+        </ul>
       </div>
     </div>
+  </nav>
+
+  </nav>
+  </div>
+  </div>
   </div>
   <!-- slider -->
   <div class="bg-slider">
@@ -62,22 +61,37 @@
       <div class="flexslider">
         <ul class="slides">
           <li>
-            <img src="./img/slider.jpg" />
+            <div class="row bg-white">
+              <div class="col-md-6">
+                Lewa
+              </div>
+              <div class="col-md-5 col-md-offset-1">
+                <img src="./img/slider.jpg" />
+              </div>
+            </div>
           </li>
           <li>
-            <img src="./img/slider1.jpg" />
+            <div class="row bg-white">
+              <div class="col-md-6">
+                Lewa
+              </div>
+              <div class="col-md-5 col-md-offset-1">
+                <img src="./img/slider1.jpg" />
+              </div>
+            </div>
           </li>
-
         </ul>
       </div>
     </div>
   </div>
+
   <!-- articles and sidebar -->
+
   <div class="container">
     <div class="row">
       <!-- articles section -->
       <div class="col-md-9">
-        <div class="row bg-grey">
+        <div class="row bg-white">
           <div class="col-sm-5">
             <a href="#">
       <img class="img-responsive img-rounded" src="img/fe_pr.jpg" alt="Fundusze Europejskie Program Regionalny">
@@ -88,7 +102,7 @@
             <p><a href="projekty.html" class="btn btn-default btn-home-more" role="button">Więcej</a></p>
           </div>
         </div>
-        <div class="row bg-grey">
+        <div class="row bg-white">
           <div class="col-sm-5">
             <a href="#">
       <img class="img-responsive img-rounded" src="img/ds_logo.jpg" alt="Dolny Śląsk">
@@ -120,36 +134,40 @@
     </div>
   </div>
   <!-- footer -->
-  <div class="container footer">
-    <div class="col-sm-4">
-      <ul>
-      <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-        <li>ul. Karola Miarki 48</li>
-        <li>58-500 Jelenia Góra</li>
-      </ul>
+  <div class=" container-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <ul>
+            <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+            <li>ul. Karola Miarki 48</li>
+            <li>58-500 Jelenia Góra</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+            <li>795-095-893</li>
+            <li>697-560-752</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+            <li><a href="mailto:optimomodo@interia.pl?subject=feedback">optimomodo@interia.pl</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-4">
-      <ul>
-        <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
-        <li>795-095-893</li>
-        <li>697-560-752</li>
-      </ul>
-    </div>
-    <div class="col-sm-4">
-      <ul>
-        <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
-        <li><a href="mailto:optimomodo@interia.pl?subject=feedback">optimomodo@interia.pl</a></li>
-      </ul>
-    </div>
-
   </div>
-
   <footer>
     <div class="container legal">
-      <div class="row">
-        <p> Copyright &copy; 2017 Fundacja Optimo Modo <span class="sep"> &ndash; </span>
-          <a href="https://www.echobanda.pl">BuumPage</a> theme by EchoBanda </p>
-        <a href="cookies.html">Polityka cookies</a>
+      <div class="container">
+        <div class="row">
+          <p> Copyright &copy; 2017 Fundacja Optimo Modo <span class="sep"> &ndash; </span>
+            <a href="https://www.echobanda.pl">BuumPage</a> theme by EchoBanda </p>
+          <a href="cookies.html">Polityka cookies</a>
+        </div>
       </div>
     </div>
   </footer>
