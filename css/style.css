@@ -1,63 +1,79 @@
 /*html styles*/
+
 body {
   background-color: #dfdfdf;
   font-family: 'Roboto', sans-serif;
 }
+
 .row {
   margin-top: 15px;
 }
+
 .col-sm-offset-2 {
   margin-left: 0;
   margin-top: 50px;
   width: 80%;
 }
+
 .container-fluid {
   background-color: white;
 }
+
 a:link, a:visited, a:hover {
   text-decoration: none;
 }
+
 .container a:link, a:visited, a:hover {
   text-decoration: none;
 }
+
 .btn {
   color: #1e656d;
 }
-.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1,
-.col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-padding-left: 0;
-padding-right: 0;
-}
-/*header styles*/
-.nav {
-  font-size: 1.1em;
-  font-family: 'PT Sans', sans-serif;
 
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding-left: 0;
+  padding-right: 0;
 }
+
+
+/*header styles*/
+
+.nav {
+  font-size: 1.2em;
+  font-family: 'PT Sans', sans-serif;
+}
+
 .navbar-default, .navbar-collapse, .navbar-default, .navbar-form {
   background-color: #c62b2b;
 }
+
 .navbar-default {
   border: none;
 }
+
 .navbar-brand {
   font-family: 'PT Sans', sans-serif;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
+
 .bg-slider {
   background-color: #dfdfdf;
   padding: 25px 0;
   color: black;
   margin-top: 60px;
 }
+
 .flexslider {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
+
 .slides {
   padding-right: 15px;
 }
+
 .bg-grey {
   background-color: #dfdfdf;
   margin: 5px 0 15px 0;
@@ -66,6 +82,7 @@ padding-right: 0;
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
+
 .bg-white {
   background-color: #fff;
   margin: 15px;
@@ -77,6 +94,7 @@ padding-right: 0;
   border-radius: 6px;
   text-align: justify;
 }
+
 .bg-sidebar {
   background-color: #fff;
   margin: 15px 0 0 0;
@@ -85,10 +103,12 @@ padding-right: 0;
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
+
 .container-black {
   background-color: black;
   color: white;
 }
+
 .navbar {
   background-color: #c62b2b;
   color: white;
@@ -98,24 +118,30 @@ padding-right: 0;
   font-family: 'Roboto', sans-serif;
   padding-top: 5px;
 }
+
 .navbar-default .navbar-brand {
   text-decoration: none;
   color: #fff;
 }
+
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   text-decoration: none;
   color: #fff;
 }
+
 .navbar-default .navbar-text {
   color: #fff;
 }
+
 .navbar-default .navbar-nav>li>a {
   color: #fff;
 }
+
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   color: #fff;
   background-color: transparent;
 }
+
 .footer-above {
   background-color: #c62b2b;
   color: white;
@@ -124,8 +150,9 @@ padding-right: 0;
   width: 100%;
   font-family: 'Roboto', sans-serif;
   padding-top: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
+
 .footer-above li {
   list-style: none;
   font-size: 1.2em;
@@ -134,14 +161,17 @@ padding-right: 0;
 .footer-above i {
   margin: 10px 0 10px 0;
 }
+
 .footer-above a:link, a:visited, a:hover {
   text-decoration: none;
   color: white;
 }
+
 .footer-below a:link, a:visited, a:hover {
   text-decoration: none;
   color: #1e656d;
 }
+
 .footer-below {
   background-color: white;
   color: black;
@@ -150,15 +180,20 @@ padding-right: 0;
   width: 100%;
   font-family: 'Roboto', sans-serif;
 }
+
 footer {
   background-color: white;
   height: 100px;
   font-family: 'Roboto', sans-serif;
 }
+
 .title {
   margin-top: 0;
 }
+
+
 /*return arrow styles*/
+
 .return-to-top {
   position: fixed;
   bottom: 20px;
@@ -169,8 +204,8 @@ footer {
   display: block;
   text-decoration: none;
   display: none;
-
 }
+
 .return-to-top i {
   color: #fff;
   margin: 0;
