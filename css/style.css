@@ -68,6 +68,7 @@ a:link, a:visited, a:hover {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
+  margin: 0 0 20px;
 }
 
 .slides {
