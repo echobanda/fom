@@ -116,32 +116,33 @@ padding-right: 0;
   color: #fff;
   background-color: transparent;
 }
-.container-footer {
+.footer-above {
   background-color: #c62b2b;
   color: white;
-  height: 130px;
+  /*height: 130px;*/
   text-align: center;
   width: 100%;
   font-family: 'Roboto', sans-serif;
   padding-top: 5px;
+  padding-bottom: 10px;
 }
-.container-footer li {
+.footer-above li {
   list-style: none;
   font-size: 1.2em;
 }
 
-.container-footer i {
+.footer-above i {
   margin: 10px 0 10px 0;
 }
-.container-footer a:link, a:visited, a:hover {
+.footer-above a:link, a:visited, a:hover {
   text-decoration: none;
   color: white;
 }
-.legal a:link, a:visited, a:hover {
+.footer-below a:link, a:visited, a:hover {
   text-decoration: none;
   color: #1e656d;
 }
-.legal {
+.footer-below {
   background-color: white;
   color: black;
   height: 100px;
@@ -168,6 +169,7 @@ footer {
   display: block;
   text-decoration: none;
   display: none;
+
 }
 .return-to-top i {
   color: #fff;
